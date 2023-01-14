@@ -1,0 +1,17 @@
+{
+    "apps": [{
+        "name": "food_api",
+        "script": "artisan",
+        "args": ["serve", "--host=139.59.124.212", "--port=3000"],
+        "instances": 1,
+        "wait_ready": true,
+        "autorestart": false,
+        "max_restarts": 1,
+        "interpreter": "php",
+        "watch": true,
+        "error_file": "/var/www/food_api/storage/logs/food_api.err.log",
+        "out_file": "/var/www/food_api/storage/logs/food_api.out.log",
+        "log_file": "/var/www/food_api/storage/logs/food_api.log",
+        "time": true
+    }]
+}

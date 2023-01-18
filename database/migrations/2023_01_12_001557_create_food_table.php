@@ -18,6 +18,12 @@ return new class extends Migration
             $table->string('name');
             $table->string('imgPath');
             $table->decimal('price');
+            $table->string('description');
+            $table->decimal('stars');
+            $table->string('location');
+            $table->string('createdAt');
+            $table->string('updatedAt');
+            $table->decimal('prtypeIdice');
             $table->timestamps();
         });
     }

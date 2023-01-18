@@ -27,6 +27,12 @@ class StoreFoodRequest extends FormRequest
             'name' => ['required', 'max:70'],
             'imgPath'  => ['required'],
             'price' => ['required', 'numeric'],
+            'description'  => ['required'],
+            'stars'  => ['required'],
+            'location'  => ['required'],
+            'createdAt'  => ['required'],
+            'updatedAt'  => ['required'],
+            'prtypeIdice'  => ['required'],
         ];
     }
 }
